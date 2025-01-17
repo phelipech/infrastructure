@@ -1,9 +1,9 @@
 include {
-  path = find_in_parent_folders("root.hcl")
+  path = find_in_parent_folders("common.hcl")
 }
 
 terraform {
-  source = "../../../environments/dev/keyvault"
+  source = "../../../environments/common/keyvault"
 }
 
 inputs = {

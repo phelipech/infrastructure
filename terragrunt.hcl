@@ -16,4 +16,3 @@ inputs = {
     owner       = "team"
   }
 }
-
